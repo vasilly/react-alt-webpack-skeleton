@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Main = React.createClass({
+const Index = React.createClass({
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ const Main = React.createClass({
   }
 })
 
-export default Main;
+export default Index;
