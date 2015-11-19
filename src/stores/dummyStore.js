@@ -1,12 +1,12 @@
 import alt from '../alt';
-import actions from '../actions/dummyActions';
+import DummyActions from '../actions/DummyActions';
 
 class DummyStore {
   constructor() {
     this.text = 'some text';
 
     this.bindListeners({
-      updateText: actions.updateText
+      updateText: DummyActions.updateText
     });
   }
 

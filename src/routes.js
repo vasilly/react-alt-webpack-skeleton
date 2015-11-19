@@ -1,14 +1,14 @@
 import React from 'react';
 import { IndexRoute, Route } from 'react-router';
 
-import Main from './components/main';
-import Home from './components/home';
-import Edit from './components/edit';
+import Index from './components/index';
+import HomeContainer from './components/HomeContainer';
+import EditContainer from './components/EditContainer';
 
 const routes = (
-  <Route path="/" component={Main}>
-    <IndexRoute component={Home}/>
-    <Route path="edit" component={Edit}/>
+  <Route path="/" component={Index}>
+    <IndexRoute component={HomeContainer}/>
+    <Route path="edit" component={EditContainer}/>
   </Route>
 );
 
