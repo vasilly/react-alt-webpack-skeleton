@@ -7,17 +7,22 @@
   "scripts": {
     "build": "webpack --progress --profile --colors",
     "watch": "webpack-dev-server --hot --inline --progress --colors",
+    "start": "node ./server.babel",
     "test": "echo \"No unit tests and e2e tests yet\" && exit 1"
   },
   "author": "Abi Noda",
   "dependencies": {
     "alt": "0.17.8",
     "babel-runtime": "6.1.18",
-    "babel-core": "^6.0.0",
+    "babel-core": "^6.2.1",
     "react": "0.14.2",
     "react-dom": "0.14.2",
     "react-router": "1.0.0",
-    "history": "1.13.1"
+    "history": "1.13.1",
+    "hapi": "11.1.2",
+    "babel-register": "^6.2.0",
+    "inert": "^3.2.0",
+    "cheerio": "^0.19.0"
   },
   "devDependencies": {
     "webpack": "^1.12.6",
